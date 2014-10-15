@@ -9,12 +9,19 @@
     <div class="row">
 
 <?php
-    $form = new AG\Form\Types\FormGerador();
+    $form = new \AG\Form\Types\Form();
 
-    echo $form->iniciaForm();
-    echo $form->adicionaInput("Usuario","user","text");
-    echo $form->finalizaForm();
+    $text = new \AG\Form\Types\Input('text','nome');
+    $password = new \AG\Form\Types\Input('password','senha');
+
+    $form->addElement($text);
+    $form->addElement($password);
+
+    $form->render();
 ?>
+
+
+
 
 
 <?php

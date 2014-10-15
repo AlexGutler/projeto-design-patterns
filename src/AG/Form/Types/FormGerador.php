@@ -2,9 +2,9 @@
 
 namespace AG\Form\Types;
 
-use AG\Form\Form;
+use AG\Form\FormInterface;
 
-class FormGerador implements Form
+class FormGerador implements FormInterface
 {
     private $form;
     private $formNew;
@@ -21,7 +21,7 @@ class FormGerador implements Form
         return $this->form;
     }
 
-    public function adicionaInput($label, $nomeCampo, $type)
+    public function addElement($label, $nomeCampo, $type)
     {
         $this->formNew .= '<div class="form-group">';
         $this->formNew .= '<label for="'.$nomeCampo.'" class="col-sm-2 control-label">'.$label.'</label>';
@@ -32,17 +32,15 @@ class FormGerador implements Form
         return $this->formNew;
     }
 
-    public function iniciaForm()
+    public function openTag()
     {
         return $this->beginForm .= '<form class="form-horizontal" action="#" method="POST" role="form" name="form">';
     }
 
-    public function finalizaForm()
+    public function closeTag()
     {
-        $this->endForm .= '<div class="form-group">';
-        $this->endForm .= '<div class="col-sm-offset-2 col-sm-10">';
-        $this->endForm .= '<button type="submit" class="btn btn-default">Enviar</button>';
-        $this->endForm .= '</div></div></form>';
+
+        $this->endForm .= '</form>';
 
         return $this->endForm;
     }
