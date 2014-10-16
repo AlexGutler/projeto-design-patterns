@@ -11,7 +11,7 @@
 <?php
     $form = new \AG\Form\Types\Form();
 
-    $text = new \AG\Form\Types\Input('text','nome');
+    $text = new \AG\Form\Types\Input('text','nome', new \AG\Form\Types\Label('nome','Nome:'));
     $password = new \AG\Form\Types\Input('password','senha');
 
     $form->addElement($text);
