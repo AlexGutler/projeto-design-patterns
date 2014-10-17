@@ -22,11 +22,21 @@
     $button = new \AG\Form\Types\Button\Button('submit','submit','enviar','Enviar');
     $checkbox = new \AG\Form\Types\Input\InputSelections('checkbox','remeber','remember','Lembrar Credenciais');
 
+    $options = array
+    (
+        1 => array('volvo','Volvo'),
+        2 => array('bmw',"BMW"),
+        3 => array('audi',"Audi")
+    );
+
+    $select = new \AG\Form\Types\Select\Select('carros',$options,new \AG\Form\Utils\Label('carros','Carro:'));
+
     $form->addElement($text);
     $form->addElement($email);
     $form->addElement($password);
     $form->addElement($cor);
     $form->addElement($textarea);
+    //$form->addElement($select);
     $form->addElement($radio1);
     $form->addElement($radio2);
     $form->addElement($checkbox);
@@ -35,9 +45,6 @@
 
     $form->render();
 ?>
-
-
-
 
 
 <?php
