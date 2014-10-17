@@ -18,7 +18,8 @@
     $textarea = new \AG\Form\Types\TextArea\TextArea('mensagem',3,new \AG\Form\Utils\Label('mensagem','Mensagem:'));
     $radio1 = new \AG\Form\Types\Input\InputSelections('radio','gender','male','Male');
     $radio2 = new \AG\Form\Types\Input\InputSelections('radio','gender','female','Female');
-    $submit = new \AG\Form\Types\Input\InputActions('submit','submit','Enviar');
+    //$submit = new \AG\Form\Types\Input\InputActions('submit','submit','Enviar');
+    $button = new \AG\Form\Types\Button\Button('submit','submit','enviar','Enviar');
     $checkbox = new \AG\Form\Types\Input\InputSelections('checkbox','remeber','remember','Lembrar Credenciais');
 
     $form->addElement($text);
@@ -29,7 +30,8 @@
     $form->addElement($radio1);
     $form->addElement($radio2);
     $form->addElement($checkbox);
-    $form->addElement($submit);
+    //$form->addElement($submit);
+    $form->addElement($button);
 
     $form->render();
 ?>
