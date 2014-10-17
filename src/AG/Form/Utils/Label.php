@@ -16,21 +16,6 @@ class Label implements ElementInterface
         $this->caption = $caption;
     }
 
-    public function tipo()
-    {
-        // TODO: Implement tipo() method.
-    }
-
-    public function classe()
-    {
-        // TODO: Implement classe() method.
-    }
-
-    public function nome()
-    {
-        // TODO: Implement nome() method.
-    }
-
     public function render()
     {
         return '<label for="'.$this->for.'" class="col-sm-2 control-label">'.$this->caption.'</label>';
