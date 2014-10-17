@@ -2,28 +2,28 @@
 namespace AG\Form\Types;
 
 
-use AG\Form\ElementInterface;
-use AG\Form\FormInterface;
+use AG\Form\Interfaces\ElementInterface;
+use AG\Form\Interfaces\FormInterface;
 
 class Form implements FormInterface
 {
-    protected $class;
+   // protected $class;
     protected $action;
     protected $method;
-    protected $options = array();
+    //protected $options = array();
     protected $elements = array();
 
     // explod e implod
-    public function __construct($class = null, $action = null, Array $options = array(), $method = null)
+    public function __construct($action = null, $method = null)
     {
-        $this->class = $class;
+        //$this->class = $class;
         $this->action = $action;
         $this->method = $method;
     }
 
     public function openTag()
     {
-        return '<form class="form-horizontal" action="#" method="POST" role="form" name="form">';
+        return '<form class="form-horizontal" action="'.$this->action.'" method="'.$this->method.'" role="form" name="form">';
     }
 
     public function closeTag()

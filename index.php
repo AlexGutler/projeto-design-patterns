@@ -9,18 +9,17 @@
     <div class="row">
 
 <?php
-    $form = new \AG\Form\Types\Form();
+    $form = new \AG\Form\Types\Form('#','POST');
 
-    $text = new \AG\Form\Types\InputBasic('text','name', new \AG\Form\Types\Label('nome','Nome:'));
-    $email = new \AG\Form\Types\InputBasic('email','email', new \AG\Form\Types\Label('email','Email:'));
-    $password = new \AG\Form\Types\InputBasic('password','password', new \AG\Form\Types\Label('password','Senha:'));
-    $cor = new \AG\Form\Types\InputBasic('cor','telefone', new \AG\Form\Types\Label('cor','Cor:'));
-    $radio1 = new \AG\Form\Types\InputSelections('radio','gender','male','Male');
-    $radio2 = new \AG\Form\Types\InputSelections('radio','gender','female','Female');
-    $checkbox = new \AG\Form\Types\InputSelections('checkbox','remeber','remember','Lembrar Credenciais');
-
-    $submit = new \AG\Form\Types\InputActions('submit','submit','Enviar');
-    $reset = new \AG\Form\Types\InputActions('reset','reset','Limpar');
+    $text = new \AG\Form\Types\Input\InputBasic('text','name', new \AG\Form\Utils\Label('nome','Nome:'));
+    $email = new \AG\Form\Types\Input\InputBasic('email','email', new \AG\Form\Utils\Label('email','Email:'));
+    $password = new \AG\Form\Types\Input\InputBasic('password','password', new \AG\Form\Utils\Label('password','Senha:'));
+    $cor = new \AG\Form\Types\Input\InputBasic('cor','telefone', new \AG\Form\Utils\Label('cor','Cor:'));
+    $radio1 = new \AG\Form\Types\Input\InputSelections('radio','gender','male','Male');
+    $radio2 = new \AG\Form\Types\Input\InputSelections('radio','gender','female','Female');
+    $submit = new \AG\Form\Types\Input\InputActions('submit','submit','Enviar');
+    $reset = new \AG\Form\Types\Input\InputActions('reset','reset','Limpar');
+    $checkbox = new \AG\Form\Types\Input\InputSelections('checkbox','remeber','remember','Lembrar Credenciais');
 
     $form->addElement($text);
     $form->addElement($email);

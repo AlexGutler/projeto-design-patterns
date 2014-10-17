@@ -1,9 +1,9 @@
 <?php
 
-namespace AG\Form\Types;
+namespace AG\Form\Utils;
 
 
-use AG\Form\ElementInterface;
+use AG\Form\Interfaces\ElementInterface;
 
 class Label implements ElementInterface
 {

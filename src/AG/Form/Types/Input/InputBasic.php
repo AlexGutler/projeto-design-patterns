@@ -1,10 +1,8 @@
 <?php
 
-namespace AG\Form\Types;
-
-
-use AG\Form\ElementInterface;
-use AG\Form\Types\Label;
+namespace AG\Form\Types\Input;
+use AG\Form\Types\Input\InputAbstract;
+use AG\Form\Utils\Label;
 
 /*
  * inputs without value: color, date, datetime, datetime-local, email, file, image, search

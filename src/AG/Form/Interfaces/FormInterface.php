@@ -1,6 +1,6 @@
 <?php
 
-namespace AG\Form;
+namespace AG\Form\Interfaces;
 
 
 interface FormInterface

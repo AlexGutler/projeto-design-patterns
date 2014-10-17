@@ -1,9 +1,7 @@
 <?php
 
-namespace AG\Form\Types;
-
-use AG\Form\ElementInterface;
-
+namespace AG\Form\Types\Input;
+use AG\Form\Types\Input\InputAbstract;
 /*
  * inputs with value: button, submit, reset, radio (label), checkbox, hidden,
  */

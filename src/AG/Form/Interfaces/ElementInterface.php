@@ -1,10 +1,9 @@
 <?php
 
-namespace AG\Form;
+namespace AG\Form\Interfaces;
 
 
 interface ElementInterface
 {
-
     public function render();
 } 
