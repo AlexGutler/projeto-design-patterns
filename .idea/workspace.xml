@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9162b5c-fd9f-482d-9d6a-01be1d349511" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AG/Form/Types/Form.php" afterPath="$PROJECT_DIR$/src/AG/Form/Types/Form.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AG/Form/Types/TextArea/TextArea.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\Web\projetos\code-education\design-patterns\projeto-dp\src\AG\Form\ElementInterface.php" afterPath="$PROJECT_DIR$/src/AG/Form/Interfaces/ElementInterface.php" />
-      <change type="MOVED" beforePath="D:\Web\projetos\code-education\design-patterns\projeto-dp\src\AG\Form\FormInterface.php" afterPath="$PROJECT_DIR$/src/AG/Form/Interfaces/FormInterface.php" />
-      <change type="MOVED" beforePath="D:\Web\projetos\code-education\design-patterns\projeto-dp\src\AG\Form\Types\InputAbstract.php" afterPath="$PROJECT_DIR$/src/AG/Form/Types/Input/InputAbstract.php" />
-      <change type="MOVED" beforePath="D:\Web\projetos\code-education\design-patterns\projeto-dp\src\AG\Form\Types\InputActions.php" afterPath="$PROJECT_DIR$/src/AG/Form/Types/Input/InputActions.php" />
-      <change type="MOVED" beforePath="D:\Web\projetos\code-education\design-patterns\projeto-dp\src\AG\Form\Types\InputBasic.php" afterPath="$PROJECT_DIR$/src/AG/Form/Types/Input/InputBasic.php" />
-      <change type="MOVED" beforePath="D:\Web\projetos\code-education\design-patterns\projeto-dp\src\AG\Form\Types\InputSelections.php" afterPath="$PROJECT_DIR$/src/AG/Form/Types/Input/InputSelections.php" />
-      <change type="MOVED" beforePath="D:\Web\projetos\code-education\design-patterns\projeto-dp\src\AG\Form\Types\Label.php" afterPath="$PROJECT_DIR$/src/AG/Form/Utils/Label.php" />
     </list>
     <ignored path="projeto-dp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,57 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="47" selection-start="267" selection-end="267" vertical-scroll-proportion="-2.6153846" vertical-offset="119" max-vertical-offset="833">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FormInterface.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AG/Form/Interfaces/FormInterface.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="28" selection-start="35" selection-end="35" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="289">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ElementInterface.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AG/Form/Interfaces/ElementInterface.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="2" selection-start="100" selection-end="100" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="238">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Form.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AG/Form/Types/Form.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="32" selection-start="348" selection-end="348" vertical-scroll-proportion="-6.5384617" vertical-offset="102" max-vertical-offset="935">
-              <folding>
-                <element signature="e#33#73#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InputAbstract.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AG/Form/Types/Input/InputAbstract.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="29" selection-start="36" selection-end="36" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="459">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InputActions.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AG/Form/Types/Input/InputActions.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="38" selection-end="76" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="578">
+            <state line="31" column="31" selection-start="1495" selection-end="1495" vertical-scroll-proportion="0.75814754" vertical-offset="85" max-vertical-offset="833">
               <folding />
             </state>
           </provider>
@@ -93,16 +39,38 @@
       <file leaf-file-name="InputBasic.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AG/Form/Types/Input/InputBasic.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="38" selection-start="76" selection-end="76" vertical-scroll-proportion="-1.5" vertical-offset="12" max-vertical-offset="799">
+            <state line="34" column="9" selection-start="675" selection-end="871" vertical-scroll-proportion="-15.884615" vertical-offset="165" max-vertical-offset="799">
+              <folding>
+                <element signature="e#38#76#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TextArea.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AG/Form/Types/TextArea/TextArea.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="9" selection-start="781" selection-end="781" vertical-scroll-proportion="-14.576923" vertical-offset="199" max-vertical-offset="782">
+              <folding>
+                <element signature="e#43#83#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ElementInterface.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AG/Form/Interfaces/ElementInterface.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="1" selection-start="67" selection-end="67" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="238">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InputSelections.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/AG/Form/Types/Input/InputSelections.php">
+      <file leaf-file-name="InputAbstract.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AG/Form/Types/Input/InputAbstract.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="38" selection-start="76" selection-end="76" vertical-scroll-proportion="0.090747334" vertical-offset="0" max-vertical-offset="731">
+            <state line="18" column="4" selection-start="521" selection-end="540" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="459">
               <folding />
             </state>
           </provider>
@@ -137,12 +105,13 @@
         <option value="$PROJECT_DIR$/src/AG/Form/Utils/Label.php" />
         <option value="$PROJECT_DIR$/src/AG/Form/Types/InputAbstract.php" />
         <option value="$PROJECT_DIR$/src/AG/Form/Types/Form.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/src/AG/Form/Interfaces/ElementInterface.php" />
         <option value="$PROJECT_DIR$/src/AG/Form/Types/Input/InputAbstract.php" />
         <option value="$PROJECT_DIR$/src/AG/Form/Types/Input/InputActions.php" />
         <option value="$PROJECT_DIR$/src/AG/Form/Types/Input/InputBasic.php" />
         <option value="$PROJECT_DIR$/src/AG/Form/Types/Input/InputSelections.php" />
+        <option value="$PROJECT_DIR$/src/AG/Form/Interfaces/ElementInterface.php" />
+        <option value="$PROJECT_DIR$/src/AG/Form/Types/TextArea/TextArea.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -276,6 +245,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="TextArea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projeto-dp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projeto-dp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Form" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Types" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Input" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -317,6 +316,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="SearchEverywhereHistory" value="" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -560,30 +560,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="47" selection-start="267" selection-end="267" vertical-scroll-proportion="-2.6153846" vertical-offset="119" max-vertical-offset="833">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AG/Form/Interfaces/FormInterface.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="28" selection-start="35" selection-end="35" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="289">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AG/Form/Interfaces/ElementInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="2" selection-start="100" selection-end="100" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="238">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AG/Form/Types/Input/InputAbstract.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="29" selection-start="36" selection-end="36" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="459">
           <folding />
         </state>
       </provider>
@@ -595,16 +574,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AG/Form/Types/Input/InputBasic.php">
+    <entry file="file://$PROJECT_DIR$/src/AG/Form/Types/Input/InputSelections.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="38" selection-start="76" selection-end="76" vertical-scroll-proportion="-1.5" vertical-offset="12" max-vertical-offset="799">
+        <state line="3" column="38" selection-start="76" selection-end="76" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="731">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AG/Form/Types/Input/InputSelections.php">
+    <entry file="file://$PROJECT_DIR$/src/AG/Form/Types/Input/InputAbstract.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="38" selection-start="76" selection-end="76" vertical-scroll-proportion="0.090747334" vertical-offset="0" max-vertical-offset="731">
+        <state line="18" column="4" selection-start="521" selection-end="540" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AG/Form/Interfaces/ElementInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="1" selection-start="67" selection-end="67" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AG/Form/Types/Input/InputBasic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="9" selection-start="675" selection-end="871" vertical-scroll-proportion="-15.884615" vertical-offset="165" max-vertical-offset="799">
+          <folding>
+            <element signature="e#38#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AG/Form/Types/TextArea/TextArea.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="9" selection-start="781" selection-end="781" vertical-scroll-proportion="-14.576923" vertical-offset="199" max-vertical-offset="782">
+          <folding>
+            <element signature="e#43#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="31" selection-start="1495" selection-end="1495" vertical-scroll-proportion="0.75814754" vertical-offset="85" max-vertical-offset="833">
           <folding />
         </state>
       </provider>
