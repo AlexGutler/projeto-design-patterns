@@ -31,7 +31,7 @@ class Form implements FormInterface
        return '</form>';
     }
 
-    public function addElement(ElementInterface $element)
+    public function createField(ElementInterface $element)
     {
         $this->elements[] = $element;
     }

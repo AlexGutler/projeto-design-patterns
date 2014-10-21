@@ -31,17 +31,17 @@
 
     $select = new \AG\Form\Types\Select\Select('carros',$options,new \AG\Form\Utils\Label('carros','Carro:'));
 
-    $form->addElement($text);
-    $form->addElement($email);
-    $form->addElement($password);
-    $form->addElement($cor);
-    $form->addElement($textarea);
+    $form->createField($text);
+    $form->createField($email);
+    $form->createField($password);
+    $form->createField($cor);
+    $form->createField($textarea);
     //$form->addElement($select);
-    $form->addElement($radio1);
-    $form->addElement($radio2);
-    $form->addElement($checkbox);
+    $form->createField($radio1);
+    $form->createField($radio2);
+    $form->createField($checkbox);
     //$form->addElement($submit);
-    $form->addElement($button);
+    $form->createField($button);
 
     $form->render();
 ?>
