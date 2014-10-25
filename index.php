@@ -11,10 +11,12 @@
 <?php
     $form = new \AG\Form\Types\Form('#','POST');
 
+    $fieldset = new \AG\Form\Types\Fieldset\Fieldset(new \AG\Form\Utils\Legend('Este é um Legend'));
+
     $text = new \AG\Form\Types\Input\InputBasic('text','name', new \AG\Form\Utils\Label('nome','Nome:'));
     $email = new \AG\Form\Types\Input\InputBasic('email','email', new \AG\Form\Utils\Label('email','Email:'));
     $password = new \AG\Form\Types\Input\InputBasic('password','password', new \AG\Form\Utils\Label('password','Senha:'));
-    $cor = new \AG\Form\Types\Input\InputBasic('cor','telefone', new \AG\Form\Utils\Label('cor','Cor:'));
+    $cor = new \AG\Form\Types\Input\InputBasic('color','cor', new \AG\Form\Utils\Label('cor','Cor:'));
     $textarea = new \AG\Form\Types\TextArea\TextArea('mensagem',3,new \AG\Form\Utils\Label('mensagem','Mensagem:'));
     $radio1 = new \AG\Form\Types\Input\InputSelections('radio','gender','male','Male');
     $radio2 = new \AG\Form\Types\Input\InputSelections('radio','gender','female','Female');
@@ -31,17 +33,18 @@
 
     $select = new \AG\Form\Types\Select\Select('carros',$options,new \AG\Form\Utils\Label('carros','Carro:'));
 
-    $form->createField($text);
-    $form->createField($email);
-    $form->createField($password);
-    $form->createField($cor);
-    $form->createField($textarea);
-    //$form->addElement($select);
-    $form->createField($radio1);
-    $form->createField($radio2);
-    $form->createField($checkbox);
-    //$form->addElement($submit);
-    $form->createField($button);
+
+    $fieldset->addElement($text);
+    $fieldset->addElement($email);
+    $fieldset->addElement($password);
+    $fieldset->addElement($cor);
+    $fieldset->addElement($textarea);
+    //$fieldset->addElement($radio1);
+    //$fieldset->addElement($radio2);
+    //$fieldset->addElement($checkbox);
+    $fieldset->addElement($button);
+
+    $form->createField($fieldset);
 
     $form->render();
 ?>
