@@ -18,12 +18,12 @@ class Fieldset implements ElementInterface
 
     public function openTag()
     {
-        return '<legend>';
+        return '<fieldset>';
     }
 
     public function closeTag()
     {
-        return '</legend>';
+        return '</fieldset>';
     }
 
     public function addElement(ElementInterface $element)

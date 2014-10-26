@@ -11,7 +11,7 @@
 <?php
     $form = new \AG\Form\Types\Form('#','POST');
 
-    $fieldset = new \AG\Form\Types\Fieldset\Fieldset(new \AG\Form\Utils\Legend('Este é um Legend'));
+    $fieldset = new \AG\Form\Types\Fieldset\Fieldset(new \AG\Form\Utils\Legend('Formulário Básico'));
 
     $text = new \AG\Form\Types\Input\InputBasic('text','name', new \AG\Form\Utils\Label('nome','Nome:'));
     $email = new \AG\Form\Types\Input\InputBasic('email','email', new \AG\Form\Utils\Label('email','Email:'));
