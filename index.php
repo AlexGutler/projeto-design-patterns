@@ -47,6 +47,21 @@
     $form->createField($fieldset);
 
     $form->render();
+
+
+    require_once 'fixtures/conexaoDB.php';
+
+    $conn = conexaoDB();
+
+    $sql = "select * from `categorias`;";
+    $stmt = $conn->prepare($sql);
+    $stmt->execute();
+    $categorias = $stmt->fetchAll(\PDO::FETCH_ASSOC);
+
+    foreach($categorias as $categoria)
+    {
+        echo $categoria['categoria']."<br>";
+    }
 ?>
 
 
