@@ -4,19 +4,17 @@ namespace AG\Form\Types;
 
 use AG\Form\Interfaces\ElementInterface;
 use AG\Form\Interfaces\FormInterface;
+use AG\Form\Types\Fieldset\Fieldset;
+use AG\Form\Types\Input\InputBasic;
 
 class Form implements FormInterface
 {
-   // protected $class;
     protected $action;
     protected $method;
-    //protected $options = array();
     protected $elements = array();
 
-    // explod e implod
     public function __construct($action = null, $method = null)
     {
-        //$this->class = $class;
         $this->action = $action;
         $this->method = $method;
     }
@@ -45,6 +43,11 @@ class Form implements FormInterface
         }
 
         echo $this->closeTag();
+    }
+
+    public function populate()
+    {
+
     }
 
 }

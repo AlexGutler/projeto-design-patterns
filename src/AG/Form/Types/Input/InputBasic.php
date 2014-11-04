@@ -11,7 +11,20 @@ use AG\Form\Utils\Label;
 
 class InputBasic extends InputAbstract
 {
-    function __construct($type, $name, Label $label = null)
+    protected $type, $name, $value;
+
+    public function setValue($value)
+    {
+        $this->value = $value;
+        //return $this;
+    }
+
+    public function getValue()
+    {
+        return $this->value;
+    }
+
+    function __construct($type, $name, Label $label = null, $value = null)
     {
         $this->type = $type;
         $this->name = $name;
@@ -20,6 +33,8 @@ class InputBasic extends InputAbstract
         {
             $this->label = $label;
         }
+
+        $this->value = $value;
     }
 
     public function render()
@@ -34,7 +49,7 @@ class InputBasic extends InputAbstract
             $this->element .= '<div class="col-sm-6 col-sm-offset-2">';
         }
 
-        $this->element .= '<input type="'.$this->type.'" class="form-control" name="'.$this->name.'">';
+        $this->element .= '<input type="'.$this->type.'" class="form-control" name="'.$this->name.'" value="'.$this->value.'">';
         $this->element .= '</div></div>';
 
         return $this->element;

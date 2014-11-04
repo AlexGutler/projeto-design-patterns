@@ -5,8 +5,6 @@
       <change type="NEW" beforePath="" afterPath="G:/Cursos/[School of Net]/[Trilhando o Caminho com PHP]/MODULO 2 - FOUNDATION/projeto4/projeto4/fixtures/conexaoDB.php" />
       <change type="NEW" beforePath="" afterPath="G:/Cursos/[School of Net]/[Trilhando o Caminho com PHP]/MODULO 2 - FOUNDATION/projeto4/projeto4/fixtures/config.php" />
       <change type="NEW" beforePath="" afterPath="G:/Cursos/[School of Net]/[Trilhando o Caminho com PHP]/MODULO 2 - FOUNDATION/projeto4/projeto4/fixtures/fixtures.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="projeto-dp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,7 +30,7 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="0" selection-start="2106" selection-end="2106" vertical-scroll-proportion="0.44596913" vertical-offset="658" max-vertical-offset="1292">
+            <state line="54" column="0" selection-start="2106" selection-end="2106" vertical-scroll-proportion="0.62092626" vertical-offset="556" max-vertical-offset="1292">
               <folding>
                 <marker date="1415060493472" expanded="true" signature="2119:2145" placeholder="select * fro..." />
               </folding>
@@ -491,7 +489,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="2106" selection-end="2106" vertical-scroll-proportion="0.44596913" vertical-offset="658" max-vertical-offset="1292">
+        <state line="54" column="0" selection-start="2106" selection-end="2106" vertical-scroll-proportion="0.62092626" vertical-offset="556" max-vertical-offset="1292">
           <folding>
             <marker date="1415060493472" expanded="true" signature="2119:2145" placeholder="select * fro..." />
           </folding>
