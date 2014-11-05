@@ -13,8 +13,6 @@
 <?php
     $form = new \AG\Form\Types\Form('#','POST');
 
-    $fieldset = new \AG\Form\Types\Fieldset\Fieldset(new \AG\Form\Utils\Legend('Cadastro de Produtos'));
-
     $nome = new \AG\Form\Types\Input\InputBasic('text','nome', new \AG\Form\Utils\Label('nome','Nome:'));
     $valor = new \AG\Form\Types\Input\InputBasic('text','valor', new \AG\Form\Utils\Label('valor','Valor:'));
     $descricao = new \AG\Form\Types\Input\InputBasic('text','descricao', new \AG\Form\Utils\Label('descricao','Descrição:'));
@@ -23,14 +21,32 @@
 
     $select = new \AG\Form\Types\Select\Select('categorias',$options, new \AG\Form\Utils\Label('categoria','Categoria:'));
 
-    $fieldset->addElement($nome);
-    $fieldset->addElement($valor);
-    $fieldset->addElement($descricao);
-    $fieldset->addElement($select);
+    $submit = new \AG\Form\Types\Input\InputActions('submit','enviar',"Enviar");
 
-    $form->createField($fieldset);
+    $form->addElement($nome);
+    $form->addElement($valor);
+    $form->addElement($descricao);
+    $form->addElement($select);
+    $form->addElement($submit);
+
+    $dados = array(
+        0 => null,
+        1 => "Editora leYa",
+        2 => 'Livro da Série Instrumentos Mortais da Autora Cassandra Clare.',
+        3 => 1
+    );
+    $form->populate($dados);
 
     $form->render();
+
+    if (isset($_POST['enviar'])){
+        $validator = new \AG\Form\Types\Validator($form);
+
+        $erros = $validator->validator();
+
+        $list = new \AG\Form\Utils\ErrorList($erros);
+        echo $list->render();
+    }
 ?>
 
 

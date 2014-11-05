@@ -13,6 +13,11 @@ class InputBasic extends InputAbstract
 {
     protected $type, $name, $value;
 
+    public function getName()
+    {
+        return $this->name;
+    }
+
     public function setValue($value)
     {
         $this->value = $value;
@@ -49,7 +54,7 @@ class InputBasic extends InputAbstract
             $this->element .= '<div class="col-sm-6 col-sm-offset-2">';
         }
 
-        $this->element .= '<input type="'.$this->type.'" class="form-control" name="'.$this->name.'" value="'.$this->value.'">';
+        $this->element .= '<input type="'.$this->type.'" class="form-control" name="'.$this->name.'" value="'.$this->getValue().'">';
         $this->element .= '</div></div>';
 
         return $this->element;

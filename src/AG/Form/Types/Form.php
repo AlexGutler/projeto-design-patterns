@@ -4,8 +4,8 @@ namespace AG\Form\Types;
 
 use AG\Form\Interfaces\ElementInterface;
 use AG\Form\Interfaces\FormInterface;
-use AG\Form\Types\Fieldset\Fieldset;
 use AG\Form\Types\Input\InputBasic;
+use AG\Form\Types\Select\Select;
 
 class Form implements FormInterface
 {
@@ -29,7 +29,7 @@ class Form implements FormInterface
        return '</form>';
     }
 
-    public function createField(ElementInterface $element)
+    public function addElement(ElementInterface $element)
     {
         $this->elements[] = $element;
     }
@@ -45,9 +45,24 @@ class Form implements FormInterface
         echo $this->closeTag();
     }
 
-    public function populate()
+    public function populate($dados)
     {
+        $i = 0;
+        foreach ($this->elements as $value)
+        {
+            if ($value instanceof InputBasic){
+                $value->setValue($dados[$i]);
+            } elseif ($value instanceof Select)
+            {
 
+            }
+            $i ++;
+        }
+    }
+
+    public function getElements()
+    {
+        return $this->elements;
     }
 
 }
