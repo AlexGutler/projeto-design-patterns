@@ -2,6 +2,6 @@
 
 return array(
     'db' => array(
-        'dbname'=>'../categorias.db'
+        'dbname'=>'fixtures/categorias.db'
     )
 );

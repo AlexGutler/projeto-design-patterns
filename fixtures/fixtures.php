@@ -7,7 +7,7 @@ $sql = "DROP TABLE IF EXISTS `categorias`";
 $conn->query($sql);
 
 $sql = "CREATE TABLE `categorias` (
-    `id` primary key not null,
+    `id` integer primary key not null,
      `categoria` varchar(100)
 );";
 $conn->query($sql);

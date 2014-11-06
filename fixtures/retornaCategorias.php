@@ -12,12 +12,10 @@ function retornaCategorias()
 
         $categorias = $stmt->fetchAll(\PDO::FETCH_ASSOC);
 
-        $i = 0;
         $options = array();
         foreach($categorias as $categoria)
         {
-            $options[$i] = array($categoria['id'],$categoria['categoria']);
-            $i ++;
+            $options[] = array($categoria['id'],$categoria['categoria']);
         }
 
         return $options;

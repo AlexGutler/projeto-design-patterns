@@ -11,10 +11,12 @@ function conexaoDB()
 
         $dbname = (isset($config['db']['dbname'])) ? $config['db']['dbname'] : null;
 
-        return new \PDO("sqlite:{$dbname}");
+        return new \PDO("sqlite:$dbname");
     } catch (\PDOException $e)
     {
-        echo $e->getMessage();
+        echo $e->getMessage()."\n";
+        echo $e->getTraceAsString()."\n";
+
         return false;
     }
 }
