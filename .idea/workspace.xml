@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9162b5c-fd9f-482d-9d6a-01be1d349511" name="Default" comment="">
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fixtures/conexaoDB.php" afterPath="$PROJECT_DIR$/fixtures/conexaoDB.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fixtures/config.php" afterPath="$PROJECT_DIR$/fixtures/config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fixtures/fixtures.php" afterPath="$PROJECT_DIR$/fixtures/fixtures.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fixtures/retornaCategorias.php" afterPath="$PROJECT_DIR$/fixtures/retornaCategorias.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MOVED" beforePath="D:\Web\projetos\code-education\design-patterns\projeto-dp\categorias.db" afterPath="$PROJECT_DIR$/fixtures/categorias.db" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fixtures/config.php" afterPath="$PROJECT_DIR$/fixtures/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+>>>>>>> e588e6dcb0c45745cf8fad3663f1fa9cad473137
     </list>
     <ignored path="projeto-dp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,7 +38,56 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="19" column="22" selection-start="687" selection-end="687" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="1037">
+              <folding />
+=======
+            <state line="54" column="0" selection-start="1558" selection-end="1558" vertical-scroll-proportion="-30.115385" vertical-offset="135" max-vertical-offset="1037">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="retornaCategorias.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fixtures/retornaCategorias.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="578">
+              <folding>
+                <marker date="1415276641670" expanded="true" signature="124:150" placeholder="select * fro..." />
+              </folding>
+>>>>>>> e588e6dcb0c45745cf8fad3663f1fa9cad473137
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file leaf-file-name="config.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fixtures/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="19" selection-start="59" selection-end="59" vertical-scroll-proportion="0.12099644" vertical-offset="0" max-vertical-offset="562">
+              <folding />
+=======
+      <file leaf-file-name="fixtures.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fixtures/fixtures.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="29" selection-start="35" selection-end="35" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="459">
+              <folding>
+                <marker date="1415276641670" expanded="true" signature="67:100" placeholder="DROP TABLE I..." />
+                <marker date="1415276641670" expanded="true" signature="255:453" placeholder="INSERT INTO ..." />
+              </folding>
+>>>>>>> e588e6dcb0c45745cf8fad3663f1fa9cad473137
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conexaoDB.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fixtures/conexaoDB.php">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state line="20" column="5" selection-start="497" selection-end="497" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="459">
+=======
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="425">
+>>>>>>> e588e6dcb0c45745cf8fad3663f1fa9cad473137
               <folding />
             </state>
           </provider>
@@ -42,24 +96,7 @@
       <file leaf-file-name="config.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fixtures/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="19" selection-start="59" selection-end="59" vertical-scroll-proportion="0.12099644" vertical-offset="0" max-vertical-offset="562">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="conexaoDB.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fixtures/conexaoDB.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="5" selection-start="497" selection-end="497" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="459">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fixtures.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fixtures/fixtures.php">
-          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="9" column="27" selection-start="187" selection-end="187" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="459">
               <folding>
                 <marker date="1415309347668" expanded="true" signature="67:100" placeholder="DROP TABLE I..." />
@@ -76,6 +113,10 @@
               <folding>
                 <marker date="1415310470944" expanded="true" signature="124:150" placeholder="select * fro..." />
               </folding>
+=======
+            <state line="4" column="33" selection-start="73" selection-end="73" vertical-scroll-proportion="0.11826087" vertical-offset="0" max-vertical-offset="575">
+              <folding />
+>>>>>>> e588e6dcb0c45745cf8fad3663f1fa9cad473137
             </state>
           </provider>
         </entry>
@@ -122,8 +163,12 @@
         <option value="$PROJECT_DIR$/src/AG/Form/Types/Fieldset/Fieldset.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/fixtures/fixtures.php" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/fixtures/conexaoDB.php" />
         <option value="$PROJECT_DIR$/fixtures/retornaCategorias.php" />
+=======
+        <option value="$PROJECT_DIR$/index.php" />
+>>>>>>> e588e6dcb0c45745cf8fad3663f1fa9cad473137
         <option value="$PROJECT_DIR$/fixtures/config.php" />
       </list>
     </option>
@@ -132,8 +177,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1376" />
-    <option name="height" value="744" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -161,6 +206,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -195,7 +241,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -267,15 +312,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32695374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2572079" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25755286" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> e588e6dcb0c45745cf8fad3663f1fa9cad473137
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -285,6 +334,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -309,11 +359,16 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="54" column="0" selection-start="1558" selection-end="1558" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
+=======
+        <state line="54" column="0" selection-start="2076" selection-end="2076" vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="1037">
+>>>>>>> e588e6dcb0c45745cf8fad3663f1fa9cad473137
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/fixtures/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="2" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="204">
@@ -335,6 +390,12 @@
             <marker date="1415309347668" expanded="true" signature="67:100" placeholder="DROP TABLE I..." />
             <marker date="1415309347668" expanded="true" signature="263:461" placeholder="INSERT INTO ..." />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="4" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+          <folding />
+>>>>>>> e588e6dcb0c45745cf8fad3663f1fa9cad473137
         </state>
       </provider>
     </entry>
@@ -476,40 +537,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="19" column="22" selection-start="687" selection-end="687" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="1037">
+=======
+        <state line="54" column="0" selection-start="1558" selection-end="1558" vertical-scroll-proportion="-30.115385" vertical-offset="135" max-vertical-offset="1037">
+>>>>>>> e588e6dcb0c45745cf8fad3663f1fa9cad473137
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fixtures/conexaoDB.php">
+    <entry file="file://$PROJECT_DIR$/fixtures/retornaCategorias.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="20" column="5" selection-start="497" selection-end="497" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="459">
           <folding />
+=======
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="601">
+          <folding>
+            <marker date="1415276641670" expanded="true" signature="124:150" placeholder="select * fro..." />
+          </folding>
+>>>>>>> e588e6dcb0c45745cf8fad3663f1fa9cad473137
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fixtures/fixtures.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="9" column="27" selection-start="187" selection-end="187" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="459">
           <folding>
             <marker date="1415309347668" expanded="true" signature="67:100" placeholder="DROP TABLE I..." />
             <marker date="1415309347668" expanded="true" signature="263:461" placeholder="INSERT INTO ..." />
+=======
+        <state line="1" column="29" selection-start="35" selection-end="35" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="459">
+          <folding>
+            <marker date="1415276641670" expanded="true" signature="67:100" placeholder="DROP TABLE I..." />
+            <marker date="1415276641670" expanded="true" signature="255:453" placeholder="INSERT INTO ..." />
+>>>>>>> e588e6dcb0c45745cf8fad3663f1fa9cad473137
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/fixtures/retornaCategorias.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="31" selection-start="139" selection-end="139" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="544">
           <folding>
             <marker date="1415310470944" expanded="true" signature="124:150" placeholder="select * fro..." />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/fixtures/conexaoDB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="601">
+          <folding />
+>>>>>>> e588e6dcb0c45745cf8fad3663f1fa9cad473137
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fixtures/config.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="4" column="19" selection-start="59" selection-end="59" vertical-scroll-proportion="0.12099644" vertical-offset="0" max-vertical-offset="562">
+=======
+        <state line="4" column="33" selection-start="73" selection-end="73" vertical-scroll-proportion="0.11826087" vertical-offset="0" max-vertical-offset="575">
+>>>>>>> e588e6dcb0c45745cf8fad3663f1fa9cad473137
           <folding />
         </state>
       </provider>
